@@ -1,0 +1,2 @@
+FROM apache/tika:latest-full
+RUN apt-get update && nohup apt-get install tesseract-ocr-por &
